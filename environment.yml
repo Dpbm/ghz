@@ -13,3 +13,6 @@ dependencies:
       - qiskit-aer
       - qiskit-ibm-runtime
       - rustworkx
+      - circuit-knitting-toolbox
+      - docplex
+      - cplex

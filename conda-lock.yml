@@ -13,10 +13,10 @@
 version: 1
 metadata:
   content_hash:
-    linux-64: d10ae818bf359929d4c30b32eb4aae51c3bbd68e9daa2daa72b6a6eaf97aa6bd
-    osx-arm64: 2314bfccabc844403f38ee287365cec1c78d4e09b97762f7bb65424b9dcd3ef9
-    osx-64: 7007444fe7185183eff31b4c445513cff8323c8b82bd2b9f24f2a0a13d03eb13
-    win-64: dd41e55454984dfed9b23e81af3df151f4315c9d6b3d54ee6d2b8b0e83445897
+    linux-64: a719a5f7bcbcc1da715fa003280249fa9725b77d7f0c4ad3786df67ef85e7ea4
+    osx-arm64: b060d9788b12c55d335e8d297ef5b9437e1dd80074a192e4caea141410b7b746
+    osx-64: 59473e9ad48bb8cf6d56eed06635ae5b8151eca36e3b3bab302bd85f132fa9e5
+    win-64: bb8b49bc64578229178ddf6dce477077f56a687bf5569078e6932fd00913ca2d
   channels:
   - url: defaults
     used_env_vars: []
@@ -1517,6 +1517,70 @@ package:
     sha256: 10955842570876604d404661fbccbc9c7e684caf432c09c715ec38fbae45ae09
   category: main
   optional: false
+- name: circuit-knitting-toolbox
+  version: 0.7.2
+  manager: pip
+  platform: linux-64
+  dependencies:
+    numpy: '>=1.23.0'
+    qiskit-aer: '>=0.14.0.1'
+    qiskit-ibm-runtime: '>=0.23.0'
+    qiskit: '>=1.0.0,<2.0'
+    rustworkx: '>=0.14.0'
+    scipy: '>=1.5.2'
+  url: https://files.pythonhosted.org/packages/a6/64/84b584202dd8865dae56666b265b2c6f394687bd172e60e88f816eaa086d/circuit_knitting_toolbox-0.7.2-py3-none-any.whl
+  hash:
+    sha256: 388710845de685ef24136c29d5850e96e3ba9c0c47431e1676de3df2010f73ec
+  category: main
+  optional: false
+- name: circuit-knitting-toolbox
+  version: 0.7.2
+  manager: pip
+  platform: osx-64
+  dependencies:
+    numpy: '>=1.23.0'
+    qiskit-aer: '>=0.14.0.1'
+    qiskit-ibm-runtime: '>=0.23.0'
+    qiskit: '>=1.0.0,<2.0'
+    rustworkx: '>=0.14.0'
+    scipy: '>=1.5.2'
+  url: https://files.pythonhosted.org/packages/a6/64/84b584202dd8865dae56666b265b2c6f394687bd172e60e88f816eaa086d/circuit_knitting_toolbox-0.7.2-py3-none-any.whl
+  hash:
+    sha256: 388710845de685ef24136c29d5850e96e3ba9c0c47431e1676de3df2010f73ec
+  category: main
+  optional: false
+- name: circuit-knitting-toolbox
+  version: 0.7.2
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    numpy: '>=1.23.0'
+    qiskit-aer: '>=0.14.0.1'
+    qiskit-ibm-runtime: '>=0.23.0'
+    qiskit: '>=1.0.0,<2.0'
+    rustworkx: '>=0.14.0'
+    scipy: '>=1.5.2'
+  url: https://files.pythonhosted.org/packages/a6/64/84b584202dd8865dae56666b265b2c6f394687bd172e60e88f816eaa086d/circuit_knitting_toolbox-0.7.2-py3-none-any.whl
+  hash:
+    sha256: 388710845de685ef24136c29d5850e96e3ba9c0c47431e1676de3df2010f73ec
+  category: main
+  optional: false
+- name: circuit-knitting-toolbox
+  version: 0.7.2
+  manager: pip
+  platform: win-64
+  dependencies:
+    numpy: '>=1.23.0'
+    qiskit-aer: '>=0.14.0.1'
+    qiskit-ibm-runtime: '>=0.23.0'
+    qiskit: '>=1.0.0,<2.0'
+    rustworkx: '>=0.14.0'
+    scipy: '>=1.5.2'
+  url: https://files.pythonhosted.org/packages/a6/64/84b584202dd8865dae56666b265b2c6f394687bd172e60e88f816eaa086d/circuit_knitting_toolbox-0.7.2-py3-none-any.whl
+  hash:
+    sha256: 388710845de685ef24136c29d5850e96e3ba9c0c47431e1676de3df2010f73ec
+  category: main
+  optional: false
 - name: colorama
   version: 0.4.6
   manager: pip
@@ -1613,6 +1677,46 @@ package:
   url: https://files.pythonhosted.org/packages/b6/b2/27c7a0d46c7dceb9083272eb314bef1ed43e5280a4197719656f866b496d/contourpy-1.2.1-cp310-cp310-win_amd64.whl
   hash:
     sha256: 9cffe0f850e89d7c0012a1fb8730f75edd4320a0a731ed0c183904fe6ecfc3a9
+  category: main
+  optional: false
+- name: cplex
+  version: 22.1.1.2
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/a9/53/a0341bd312427c92c9094344c1d0a49f5934cbd510c3b1ec6c27da0d9239/cplex-22.1.1.2-cp310-cp310-manylinux1_x86_64.whl
+  hash:
+    sha256: a7230032928b1a657c384d3f49c04d8b80d0ab8134a2f4c0b26ff50e71ec767a
+  category: main
+  optional: false
+- name: cplex
+  version: 22.1.1.2
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/ee/3b/a131a361eab691d944bba9377b5bed01a9bc2d320311012f941d666834ac/cplex-22.1.1.2-cp310-cp310-macosx_10_6_x86_64.whl
+  hash:
+    sha256: d74a91f6e9c6f4ad4c7c69f7ab937ea9e91178a556f6f105c87eef9e434ea42e
+  category: main
+  optional: false
+- name: cplex
+  version: 22.1.1.2
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/ee/e3/4eb647ff81ae335e7afd1bb0c70633d064bbcb0dc276951e174815bdd2db/cplex-22.1.1.2-cp310-cp310-macosx_11_0_arm64.whl
+  hash:
+    sha256: b066b5aa01fcf7cb471ad41920b3fecdd87dc95686e9a7031ff470873f0db10f
+  category: main
+  optional: false
+- name: cplex
+  version: 22.1.1.2
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/4d/fb/a7f1ba12b65d183826aca21f3f4d0d36a166a50fc7d76e0bf541f9d357be/cplex-22.1.1.2-cp310-cp310-win_amd64.whl
+  hash:
+    sha256: 68b33bb9ff84be3442a6f71000e7214781c6aa8674143a9aa79cb9a84e697dfd
   category: main
   optional: false
 - name: cryptography
@@ -1857,6 +1961,50 @@ package:
   url: https://files.pythonhosted.org/packages/c9/7a/cef76fd8438a42f96db64ddaa85280485a9c395e7df3db8158cfec1eee34/dill-0.3.8-py3-none-any.whl
   hash:
     sha256: c36ca9ffb54365bdd2f8eb3eff7d2a21237f8452b57ace88b1ac615b7e815bd7
+  category: main
+  optional: false
+- name: docplex
+  version: 2.27.239
+  manager: pip
+  platform: linux-64
+  dependencies:
+    six: '*'
+  url: https://files.pythonhosted.org/packages/4d/a8/2bc30214952e312456f64b6b3c025c13c7531309642ef61a0cf6949e1a48/docplex-2.27.239.tar.gz
+  hash:
+    sha256: 520e7e8c30416da9aa77425e6f31ef8cb6684d144f616422265ea0f012b468c4
+  category: main
+  optional: false
+- name: docplex
+  version: 2.27.239
+  manager: pip
+  platform: osx-64
+  dependencies:
+    six: '*'
+  url: https://files.pythonhosted.org/packages/4d/a8/2bc30214952e312456f64b6b3c025c13c7531309642ef61a0cf6949e1a48/docplex-2.27.239.tar.gz
+  hash:
+    sha256: 520e7e8c30416da9aa77425e6f31ef8cb6684d144f616422265ea0f012b468c4
+  category: main
+  optional: false
+- name: docplex
+  version: 2.27.239
+  manager: pip
+  platform: osx-arm64
+  dependencies:
+    six: '*'
+  url: https://files.pythonhosted.org/packages/4d/a8/2bc30214952e312456f64b6b3c025c13c7531309642ef61a0cf6949e1a48/docplex-2.27.239.tar.gz
+  hash:
+    sha256: 520e7e8c30416da9aa77425e6f31ef8cb6684d144f616422265ea0f012b468c4
+  category: main
+  optional: false
+- name: docplex
+  version: 2.27.239
+  manager: pip
+  platform: win-64
+  dependencies:
+    six: '*'
+  url: https://files.pythonhosted.org/packages/4d/a8/2bc30214952e312456f64b6b3c025c13c7531309642ef61a0cf6949e1a48/docplex-2.27.239.tar.gz
+  hash:
+    sha256: 520e7e8c30416da9aa77425e6f31ef8cb6684d144f616422265ea0f012b468c4
   category: main
   optional: false
 - name: exceptiongroup
