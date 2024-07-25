@@ -16,3 +16,4 @@ dependencies:
       - circuit-knitting-toolbox
       - docplex
       - cplex
+      - python-dotenv

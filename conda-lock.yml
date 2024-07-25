@@ -13,10 +13,10 @@
 version: 1
 metadata:
   content_hash:
-    linux-64: a719a5f7bcbcc1da715fa003280249fa9725b77d7f0c4ad3786df67ef85e7ea4
-    osx-arm64: b060d9788b12c55d335e8d297ef5b9437e1dd80074a192e4caea141410b7b746
-    osx-64: 59473e9ad48bb8cf6d56eed06635ae5b8151eca36e3b3bab302bd85f132fa9e5
-    win-64: bb8b49bc64578229178ddf6dce477077f56a687bf5569078e6932fd00913ca2d
+    linux-64: 20bb243ce57b4b9d5e805565fada6d129d6376aa5761e9adb45b8531df5ae4e9
+    osx-arm64: 350425db24f745ad03a9c4c8c6e914cdf645d24a95ce44eaa12a1f96b91668a4
+    osx-64: f195bafaf5593fdbda7a73470e9771214fc912b07bd7d88e28029d9d76fae31a
+    win-64: 4765ee3d25cb49518d957fd10848738d47953b91c297588d74adb838b46f609c
   channels:
   - url: defaults
     used_env_vars: []
@@ -5094,6 +5094,46 @@ package:
   url: https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
   hash:
     sha256: a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427
+  category: main
+  optional: false
+- name: python-dotenv
+  version: 1.0.1
+  manager: pip
+  platform: linux-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/6a/3e/b68c118422ec867fa7ab88444e1274aa40681c606d59ac27de5a5588f082/python_dotenv-1.0.1-py3-none-any.whl
+  hash:
+    sha256: f7b63ef50f1b690dddf550d03497b66d609393b40b564ed0d674909a68ebf16a
+  category: main
+  optional: false
+- name: python-dotenv
+  version: 1.0.1
+  manager: pip
+  platform: osx-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/6a/3e/b68c118422ec867fa7ab88444e1274aa40681c606d59ac27de5a5588f082/python_dotenv-1.0.1-py3-none-any.whl
+  hash:
+    sha256: f7b63ef50f1b690dddf550d03497b66d609393b40b564ed0d674909a68ebf16a
+  category: main
+  optional: false
+- name: python-dotenv
+  version: 1.0.1
+  manager: pip
+  platform: osx-arm64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/6a/3e/b68c118422ec867fa7ab88444e1274aa40681c606d59ac27de5a5588f082/python_dotenv-1.0.1-py3-none-any.whl
+  hash:
+    sha256: f7b63ef50f1b690dddf550d03497b66d609393b40b564ed0d674909a68ebf16a
+  category: main
+  optional: false
+- name: python-dotenv
+  version: 1.0.1
+  manager: pip
+  platform: win-64
+  dependencies: {}
+  url: https://files.pythonhosted.org/packages/6a/3e/b68c118422ec867fa7ab88444e1274aa40681c606d59ac27de5a5588f082/python_dotenv-1.0.1-py3-none-any.whl
+  hash:
+    sha256: f7b63ef50f1b690dddf550d03497b66d609393b40b564ed0d674909a68ebf16a
   category: main
   optional: false
 - name: python-json-logger
